@@ -18,7 +18,7 @@ from time import sleep
 
 class ServerManager(object):
     '''
-    Manages several servers
+    Maneja los diferentes servidores
     '''
     __networkService = None
     __serverReader = []
