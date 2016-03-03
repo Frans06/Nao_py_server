@@ -293,7 +293,7 @@ class NAOServer(object):
 	
 	def send(self, data):
 		'''
-		Sends data to socket
+		Envia los datos al socket
 		'''
 		if self.__sock and self.__conn:
 			try:				
@@ -307,7 +307,7 @@ class NAOServer(object):
 	
 	
 	'''
-	Closes the server
+	Ciera el servidor
 	'''
 	def close(self, restart=False):
 		'''
