@@ -10,7 +10,7 @@ from subprocess import Popen, PIPE
 
 class NetworkService(object):
     '''
-    Class to manage network services
+    Clase oara la creacion del servicio de red
     '''
     __registeredInfo = {}
     __timeout = 30.0
