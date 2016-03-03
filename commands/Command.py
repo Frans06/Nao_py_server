@@ -14,7 +14,7 @@ class NAOCommand(object):
 	
 	'''
 	------------------------------------------------------
-	Inserta nuevos comentarios aquí
+	Inserta nuevos  comentarios aquí
 	------------------------------------------------------
 	'''
 	@staticmethod
