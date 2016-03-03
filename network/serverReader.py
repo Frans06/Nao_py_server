@@ -9,7 +9,7 @@ from commands.Command import NAOCommand
 
 class ServerReader(object):
     '''
-    continously reads socket data
+    lee datos de l servidor
     '''
 
 
