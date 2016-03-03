@@ -14,7 +14,7 @@ class NAOCommand(object):
 	
 	'''
 	------------------------------------------------------
-	INSERT NEW NAO COMMANDS HERE
+	Inserta nuevos comentarios aquí
 	------------------------------------------------------
 	'''
 	@staticmethod
@@ -68,7 +68,7 @@ class NAOCommand(object):
 		Resolves recieved data in form of [ command, [argument1, argument2, ...] ]
 		'''
 		
-		# go through commands list ans search for command
+		# busca el comando
 		for cmd in NAOCommand.lst:
 			if str(cmd.cmd) == data['command']:
 				start_new_thread( cmd.exe, (data['commandArguments'], server) )
