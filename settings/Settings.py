@@ -6,7 +6,7 @@ Created on 18.04.2013
 
 class Settings(object):
     '''
-    Settings class
+    Clase de configuraciones
     '''
 
     naoHostName = "127.0.0.1"
